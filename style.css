@@ -36,6 +36,18 @@ p {
     height: 20%;
 }
 
+div {
+    border-top: 1px solid #65C9B5;
+}
+
+.divSectionRight {
+    float: right;
+}
+
+.divSectionLeft {
+    float: left;
+}
+
 /* vvv Nav Bar Styling vvv */
 ul {
     list-style-type: none;
