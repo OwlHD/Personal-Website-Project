@@ -9,6 +9,31 @@ COLOR TEMPLATE
 
 body {
     background-color: #499167;
+    font-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.homeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25%;
+    width: 20%;
+    height: 20%;
 }
 
 /* vvv Nav Bar Styling vvv */
