@@ -1,0 +1,42 @@
+/*
+COLOR TEMPLATE
+#0B2027 - Rich Black
+#499167 - Sea Green
+#D1BCE3 - Thistle
+#228CDB - Tufts Blue
+#65C9B5 - Tiffany Blue
+*/
+
+body {
+    background-color: #499167;
+}
+
+/* vvv Nav Bar Styling vvv */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0B2027;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #65C9B5;
+}
+
+.active {
+    background-color: #228CDB;
+  }
+
+/* ^^^ Nav Bar Styling ^^^ */
