@@ -1,3 +1,5 @@
+console.log("Welcome to my webpage!");
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
