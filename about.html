@@ -14,5 +14,108 @@
         <li><a class="active" href="./about.html">About</a></li>
         <li><a href="./portfolio.html">Portfolio</a></li>
     </ul>
+
+    <!-- TODO - ADD PHOTO GALLERY AND MORE PICTURES -->
+    <h1 style="border-bottom: 1px solid #65C9B5; padding-bottom: 45px;">Hobbies & Interests</h1>
+
+    <!-- Dividing content into two columns -->
+    <div style="display: block; width: 100%;">
+        <!-- Left column content -->
+        <div style="width: 50%; float: left;">
+            <img src="./Media/ygo.jpg" alt="text" style="float: left; height: 128px; width: 128px; padding: 5px;">
+            <div>
+                <h2>Collecting</h2>
+                <p>From plushies to apparel to trading cards to games, I love collecting things from various fandoms.</p>
+            </div>
+
+            <img src="./Media/zuramoon.jpg" alt="text" style="float: right; height: 128px; width: 128px; padding: 5px;">
+            <div>
+                <h2>Photography</h2>
+                <p>One of my favorite things to do when exploring new places or engaging in any activies is to take pictures.  I will usually use plushies to help set the mood
+                    and allow for a bit of extra creativity! 
+                </p>
+            </div>
+
+            <img src="./Media/skates.jpg" alt="text" style="float: left; height: 128px; width: 128px; padding: 5px;">
+            <div>
+                <h2>Inline Skating</h2>
+                <p>Exercise is important to living a healthy life, and my favorite way to stay fit is inline skating.  Feeling the breeze on your face while cruising 
+                    down the streets is an amazing feeling and is great for resetting your mindset and starting fresh.
+                </p>
+            </div>
+        </div>
+
+        <!-- Right column content -->
+        <div style="width: 50%; float: left;">
+
+            <!-- Thumbnail images, three rows of three images each (9x9 square) -->
+            <div class="row">
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/concert1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Plushy Picture 1">
+                </div>
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/kekedrip1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Plushy Picture 2">
+                </div>
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/miarina3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Plushy Picture 3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/movietime.jpg" style="width:100%" onclick="currentSlide(4)" alt="Plushy Picture 4">
+                </div>
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/nesobear.jpg" style="width:100%" onclick="currentSlide(5)" alt="Plushy Picture 5">
+                </div>
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/rinachristmas.jpg" style="width:100%" onclick="currentSlide(6)" alt="Plushy Picture 6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/rubytotsugeki.jpg" style="width:100%" onclick="currentSlide(7)" alt="Plushy Picture 7">
+                </div>
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/rubytotsugeki2.jpg" style="width:100%" onclick="currentSlide(8)" alt="Plushy Picture 8">
+                </div>
+                <div class="column3">
+                    <img class="demo cursor imgThumbnail" src="./Media/zuradog.jpg" style="width:100%" onclick="currentSlide(9)" alt="Plushy Picture 9">
+                </div>
+            </div>
+
+            <!-- Full sized images for gallery -->
+            <div class="container">
+                <div class="slides">
+                    <img src="./Media/concert1.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/kekedrip1.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/miarina3.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/movietime.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/nesobear.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/rinachristmas.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/rubytotsugeki.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/rubytotsugeki2.jpg" style="width: 100%;">
+                </div>
+                <div class="slides">
+                    <img src="./Media/zuradog.jpg" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./javascript.js"></script>
 </body>
 </html>

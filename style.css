@@ -9,6 +9,39 @@ COLOR TEMPLATE
 
 body {
     background-color: #499167;
+    font-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.homeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25%;
+    width: 20%;
+    height: 20%;
+}
+
+.divSectionRight {
+    float: right;
+}
+
+.divSectionLeft {
+    float: left;
 }
 
 /* vvv Nav Bar Styling vvv */
@@ -40,3 +73,103 @@ li a:hover:not(.active) {
   }
 
 /* ^^^ Nav Bar Styling ^^^ */
+
+/* vvv About page styling vvv */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+.slides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column3 {
+    float: left;
+    width: 33.33%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active, 
+.demo:hover {
+    opacity: 1;
+}
+
+.imgThumbnail {
+    float: left;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ^^^ About page styling ^^^ */
+
+/* vvv Portfolio page styling vvv */
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.projBox {
+    width: 100%;
+    border: 5px solid #0B2027;
+    border-radius: 10px;
+    background: #D1BCE3;
+    position: relative;
+}
+
+.projBoxContent {
+    padding: 10px;
+}
+
+.projBoxImage {
+    width: 33%;
+    display: inline-block;
+}
+
+.projBoxImage .wrap {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.projBoxImage img {
+    width: 100%;
+}
+
+.projBoxText {
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    vertical-align: top;
+    width: 66%;
+}
+
+.projBoxText .wrap {
+    padding: 5px;
+}
+
+.projBoxFooter {
+    padding: 10px;
+    border-top: 4px solid #0B2027;
+    text-align: center;
+    background: #228CDB ;
+}
+
+/* ^^^ Portfolio page styling ^^^ */
