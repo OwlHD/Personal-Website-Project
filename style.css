@@ -36,10 +36,6 @@ p {
     height: 20%;
 }
 
-div {
-    border-top: 1px solid #65C9B5;
-}
-
 .divSectionRight {
     float: right;
 }
@@ -77,3 +73,49 @@ li a:hover:not(.active) {
   }
 
 /* ^^^ Nav Bar Styling ^^^ */
+
+/* vvv About page styling vvv */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+.slides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active, 
+.demo:hover {
+    opacity: 1;
+}
+
+.imgThumbnail {
+    float: left;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ^^^ About page styling ^^^ */
