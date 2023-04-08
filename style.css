@@ -98,7 +98,7 @@ li a:hover:not(.active) {
     clear: both;
 }
 
-.column {
+.column3 {
     float: left;
     width: 33.33%;
 }
@@ -119,3 +119,57 @@ li a:hover:not(.active) {
 }
 
 /* ^^^ About page styling ^^^ */
+
+/* vvv Portfolio page styling vvv */
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.projBox {
+    width: 100%;
+    border: 5px solid #0B2027;
+    border-radius: 10px;
+    background: #D1BCE3;
+    position: relative;
+}
+
+.projBoxContent {
+    padding: 10px;
+}
+
+.projBoxImage {
+    width: 33%;
+    display: inline-block;
+}
+
+.projBoxImage .wrap {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.projBoxImage img {
+    width: 100%;
+}
+
+.projBoxText {
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    vertical-align: top;
+    width: 66%;
+}
+
+.projBoxText .wrap {
+    padding: 5px;
+}
+
+.projBoxFooter {
+    padding: 10px;
+    border-top: 4px solid #0B2027;
+    text-align: center;
+    background: #228CDB ;
+}
+
+/* ^^^ Portfolio page styling ^^^ */
